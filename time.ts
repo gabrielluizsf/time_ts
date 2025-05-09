@@ -1,5 +1,23 @@
 import { Duration } from "./duration.ts";
 
+/**
+  * This module contains Time class for working with dates and times.
+  *
+  * @example
+  * ```ts
+  * import { Time } from "@i9si-sistemas/time";
+  *
+  * const startDate = Time.now();
+  * console.log(startDate);
+  * const endDate = Time.add(date, Time.hours(10));
+  * console.log(endDate);
+  * ```
+   *
+   * @module
+   */
+
+
+/** This class provides static methods for working with dates and times. */
 export class Time {
   /**
    * Returns duration in seconds
