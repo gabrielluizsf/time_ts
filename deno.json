@@ -1,0 +1,9 @@
+{
+ "name": "@gabrielluizsf/time",
+  "version": "1.0.0",
+  "license": "MIT",
+  "exports": "./time.ts",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
